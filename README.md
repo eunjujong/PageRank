@@ -34,7 +34,7 @@ We create a text file containing adjacency list of the data links and use the te
 We can set the number of iterations by using the coomand --iteration followed by the number of iterations. 
 ```
 python adj_process.py adj_list.txt
-python Pagerank.py --iteration 100 adj_list.txt
+python pagerank.py --iteration 100 adj_list.txt
 ```
 The results are displayed as follows: a URL, a list of linked URLs, and its rage rank (importance).
 
